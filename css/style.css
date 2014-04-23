@@ -19,9 +19,10 @@
 
 #intro h1, #intro h2, #intro h3, #intro p {
     margin: 0;
+    line-height: 1.4;
 }
 
-/** 
+/**
     Test Pattern
 */
 
