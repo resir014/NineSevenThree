@@ -16,6 +16,7 @@
 
 html, body {
     height: 100%;
+    font-size: 100%;
     margin: 0;
 }
 
@@ -34,7 +35,7 @@ html, body {
 .container {
     padding: 0 1rem;
     margin: 0 auto;
-    max-width: 48rem;
+    max-width: 60rem;
 }
 
 .row {
@@ -79,7 +80,7 @@ html, body {
     .col-1 { width: 8.33%; }
 }
 
-/* Additional CLearfix */
+/* Additional Clearfix */
 .clearfix:before,
 .clearfix:after {
     display: table;
@@ -101,9 +102,9 @@ html, body {
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 1.6;
-    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     color: #222222;
     background-color: #ffffff;
 }
@@ -194,6 +195,10 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
+/**
+    Unordered & Ordered Lists
+*/
+
 ul,
 ol {
     margin-top: 0;
@@ -207,6 +212,8 @@ ol ol {
     margin-bottom: 0;
 }
 
+/* Inline Lists */
+
 .inline {
     padding-left: 0;
     margin-left: -5px;
@@ -218,6 +225,10 @@ ol ol {
     padding-right: 5px;
     padding-left: 5px;
 }
+
+/**
+    Definition Lists
+*/
 
 dl {
     margin-top: 0;
