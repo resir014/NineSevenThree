@@ -7,7 +7,7 @@ permalink:        pretty
 source:           docs
 title:            NineSevenThree
 tagline:          "Simplified, responsive web design framework"
-baseurl:          "/NineSevenThree"
+baseurl:          ""
 exclude:          ["Makefile", "Gruntfile.js", "README.md", "LICENSE", "node_modules", "package.json"]
 
 # Sass config

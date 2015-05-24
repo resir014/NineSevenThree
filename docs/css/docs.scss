@@ -2,11 +2,15 @@
 # Jekyll frontmatter required to load the SCSS file properly
 ---
 
-//
-// Custom styles for the NineSevenThree test pattern.
-//
-// @author  Resi Respati <https://twitter.com/resir014>
-//
+/*
+ * Custom styles for the NineSevenThree test pattern.
+ *
+ * Resi Respati https://twitter.com/resir014
+*/
 
 @import "../scss/main";
 @import "css/styles";
+
+/* Import the font, served by Google */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);

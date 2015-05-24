@@ -1,18 +1,19 @@
-$container-width: 973px !default;
-$grid-gutter:     15px !default;
+$container-width: 60rem !default;
+$grid-gutter:     2% !default;
 
-// Primary colors
-$color-blue:       #268bd2 !default;
-$color-gray-light: #999    !default;
-$color-gray:       #666    !default;
+/* Primary colors */
+$color-blue:       #3b98b2 !default;
+$color-gray-light: #888    !default;
+$color-gray:       #555    !default;
 $color-gray-dark:  #222    !default;
+$btn-color-white:  #fff    !default;
 
-// Font stack
-$body-font: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+/* Font stack */
+$body-font: "Helvetica Neue", Helvetica, Arimo, sans-serif !default;
 
-// The base body size
-$body-font-size: 14px !default;
-$line-height: 20/14 !default;
+/* The base body size */
+$body-font-size: 1rem !default;
+$line-height: 1.5 !default;
 
-// Monospace font stack
+/* Monospace font stack */
 $mono-font: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;

@@ -28,18 +28,19 @@
 }
 
 @media (min-width: 36rem) {
-  .col-12 { width: 100%; }
-  .col-11 { width: 91.67%; }
-  .col-10 { width: 83.33%; }
-  .col-9 { width: 75%; }
-  .col-8 { width: 66.67%; }
-  .col-7 { width: 58.33%; }
-  .col-6 { width: 50%; }
-  .col-5 { width: 41.67%; }
-  .col-4 { width: 33.33%; }
-  .col-3 { width: 25%; }
-  .col-2 { width: 16.67%; }
-  .col-1 { width: 8.33%; }
+  .col-12 { width: calc(100%) }
+  .col-11 { width: calc(100%/(12/11)) }
+  .col-10 { width: calc(100%/(12/10)) }
+  .col-9  { width: calc(100%/(12/9)) }
+  .col-8  { width: calc(100%/(12/8)) }
+  .col-7  { width: calc(100%/(12/7)) }
+  .col-6  { width: calc(100%/(12/6)) }
+  .col-5  { width: calc(100%/(12/5)) }
+  .col-4  { width: calc(100%/(12/4)) }
+  .col-3  { width: calc(100%/(12/3)) }
+  .col-2  { width: calc(100%/(12/2)) }
+  .col-1  { width: calc(100%/12) }
 
-  .col-push { float: right; }
+  .col-push { float: right }
 }
+

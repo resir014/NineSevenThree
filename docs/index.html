@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+  <main>
     <div class="container">
       <div class="alert alert-warning">
         <strong>Note:</strong> This is far from finished. Please don't use it for now.
@@ -12,14 +13,45 @@ title: Home
     <section id="type">
       <div class="container">
 
-        <h2>Typography</h2>
+        <h3>Typography</h3>
 
-        <h3>Paragraph</h3>
+        <h4>Paragraph</h4>
 
-        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
-        <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+        <div class="row">
+          <div class="col col-6">
+            <p>All columns of text are fully responsive. Go on, try it! Resize
+            your browser!</p>
+
+            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef
+            sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim
+            salami nulla nostrud pastrami.</p>
+
+            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop
+            in. Swine short ribs meatball irure bacon nulla pork belly
+            cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui
+            bresaola enim jowl.</p>
+
+            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop
+            in. Swine short ribs meatball irure bacon nulla pork belly
+            cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui
+            bresaola enim jowl. Capicola short ribs minim salami nulla nostrud
+            pastrami.</p>
+              </div>
+              <div class="col col-6">
+            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop
+            in. Swine short ribs meatball irure bacon nulla pork belly
+            cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui
+            bresaola enim jowl. Capicola short ribs minim salami nulla nostrud
+            pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl.
+            Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop
+            in. Swine short ribs meatball irure bacon nulla pork belly
+            cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui
+            bresaola enim jowl. Capicola short ribs minim salami nulla nostrud
+            pastrami.</p>
+          </div>
+        </div>
 
         <h3>Headings</h3>
 
@@ -30,7 +62,7 @@ title: Home
         <h5>h5. Heading <small>Subheading</small></h5>
         <h6>h6. Heading <small>Subheading</small></h6>
 
-        <h3>Lists, Ordered Lists, and Description Lists</h3>
+        <h2>Lists, Ordered Lists, and Description Lists</h2>
 
         <ul>
           <li>Bacon ipsum dolor sit amet</li>
@@ -68,35 +100,18 @@ title: Home
           <dd>Qui bresaola enim jowl</dd>
         </dl>
 
-        <h3>Other Elements (experimental)</h3>
-
-        <div class="alert alert-warning">
-          <strong>Note:</strong> So far only grid and typography elements are fully incorporated into the framework. The following elements are custom-built for experimental purposes. Some of them might be incorporated into the actual framework, but, well, who knows.
-        </div>
-
-        <p>Here is a <a href="http://www.youtube.com/watch?v=ceJ_DeT-c3M" target="_blank">link</a> to a random video found on the interwebs.</p>
-
-        <pre>#!/usr/bin/env python
-
-print "This is a code block written in the pre element"</pre>
-
-        <p>You can also use the <code>&lt;code&gt;</code> element to display inline codes.</p>
-
-        <blockquote>
-          <p>On this day in history: mundanity, and terror, and food, and love, and trees.</p>
-          <footer>Episode 35 of <cite title="Welcome to Night Vale">Welcome to Night Vale</cite>.</footer>
-        </blockquote>
-
-      </div>
     </section>
 
     <section id="grid-layout">
 
       <div class="container">
-        <h2>Grid Layouts</h2>
+        <h3>Grid Layouts</h3>
 
         <p>Standard, fluid responsive layouts.</p>
-        <p>Currently only 3, 4, 6, 8, and 12 columns are available, but more will be added in the future. All column classes are in the format of <code>.col-*</code>.</p>
+
+        <p>Currently only 3, 4, 6, 8, and 12 columns are available, but more
+        will be added in the future. All column classes are in the format of
+        <code>.col-*</code>.</p>
 
         <div class="row griddemo">
           <div class="col col-12">
@@ -156,7 +171,7 @@ print "This is a code block written in the pre element"</pre>
           </div>
         </div>
 
-        <h3>Pushing a column</h3>
+        <h4>Pushing a column</h4>
 
         <p>Pushing a column switches the position of the grid without sacrificing HTML hierarchy.</p>
 
@@ -169,28 +184,35 @@ print "This is a code block written in the pre element"</pre>
           </div>
         </div>
 
-        <h3>Application</h3>
+        <h3>Other Elements (experimental)</h3>
 
-        <div class="row">
-          <div class="col col-4">
-            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
-            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-          </div>
-          <div class="col col-4">
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-          </div>
-          <div class="col col-4">
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-          </div>
+        <div class="alert alert-warning">
+
+          <strong>Note:</strong> So far only grid and typography elements are
+          fully incorporated into the framework. The following elements are
+          custom-built for experimental purposes. Some of them might be
+          incorporated into the actual framework, but, well, who knows.
+
         </div>
-      </div>
-    </section>
 
-    <section id="more-stuffs">
-      <div class="container">
-        <h2>Other stuffs</h2>
+        <p>Here is a <a href="http://www.youtube.com/watch?v=ceJ_DeT-c3M"
+          target="_blank">link</a> to a random video found on the
+        interwebs.</p>
 
-        <p>Nope. Not at the moment.</p>
-        <p>Probably some more UI stuffs, but that might have to wait for a bit.</p>
+        <pre>#!/usr/bin/env python
+
+        print "This is a code block written in the pre element"</pre>
+
+        <p>You can also use the <code>&lt;code&gt;</code> element to display inline codes.</p>
+
+        <blockquote>
+          <p>On this day in history: mundanity, and terror, and food, and love,
+          and trees.</p>
+
+          <footer>Episode 35 of <cite title="Welcome to Night Vale">Welcome to
+              Night Vale</cite>.</footer>
+
+        </blockquote>
+
       </div>
-    </section>
+  </main>
